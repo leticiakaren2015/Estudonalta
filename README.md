@@ -1,3 +1,3 @@
-# Formações Estudonalta
+# Formações Estudonauta
 html-css 
 📚📚📚
