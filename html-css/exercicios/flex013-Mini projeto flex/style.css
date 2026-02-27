@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;  /* eixo principal */
+    align-items: center;      /* eixo cruzado */
+    background-color: #f2f2f2;
+    border: 2px dotted blue;
+    
+}
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;   /* mobile primeiro */
+    background: white;
+    max-width: 800px;
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px dotted red;
+    padding: 10px;
+}
+
+/* Imagem */
+.profile-image img {
+    width: 100%;
+    display: block;
+    border: 2px dotted green;
+    padding: 10px;
+}
+
+/* Informações */
+.profile-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px dotted rgb(0, 255, 4);
+}
+
+/* Botões */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted rgb(28, 12, 118);
+}
+
+/* Faz os botões crescerem */
+.buttons button {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Um botão diferente */
+.highlight {
+    align-self: flex-end; /* sobrescreve alinhamento */
+}
