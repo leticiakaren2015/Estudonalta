@@ -1,0 +1,22 @@
+
+
+div.container {
+            border: 2px solid blue;
+            display: grid;
+            grid-template: repeat(3, 100px) / repeat(4, 1fr);
+        }
+
+        .caixa1 {
+            border: 2px dotted blueviolet;
+            grid-area: 1 / 1 / 2 / 5;
+        }
+
+        .caixa2 {
+            border: 2px dotted red;
+            grid-area: 2/ 1/ 4/ 3;
+        }
+
+        .caixa3 {
+            border: 2px dotted green;
+                grid-area: 2/ 3/ 4/ 5;
+        }
